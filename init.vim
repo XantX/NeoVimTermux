@@ -37,3 +37,10 @@ nmap <Leader>gc :Gcommit<CR>
 nmap <Leader>t :terminal<CR>
 nmap <Leader>c <plug>NERDCommenterToggle
 vmap <Leader>c <plug>NERDCommenterToggle<cr>gv
+"Spell checker
+nmap <leader>a <Plug>(coc-codeaction-selected)
+" GoTo code navigation Coc
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)

@@ -6,5 +6,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdcommenter'
+Plug 'neoclide/coc.nvim',{'branch':'release'}
 call plug#end()
 
