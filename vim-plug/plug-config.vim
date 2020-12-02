@@ -67,3 +67,9 @@ if exists('*complete_info')
 else
   inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
+
+function! AirlineInit()
+    "let g:airline_section_c = airline#section#create(['file'])
+    let g:airline_section_c = airline#section#create(['file',' ','%{coc#status()}'])
+  endfunction
+autocmd User AirlineAfterInit call AirlineInit()

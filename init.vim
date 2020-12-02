@@ -10,7 +10,7 @@ set termguicolors
 set ruler
 set encoding=utf-8
 set showmatch
-set laststatus=2
+set laststatus=1
 set incsearch
 set wildmenu
 set autoindent
@@ -21,6 +21,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set showcmd
+set autochdir
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 let NERDTreeQuitOnOpen=1
@@ -31,6 +32,7 @@ nmap <Leader>rc :e ~/.config/nvim/init.vim <CR>
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>vs :vsp<CR>
 nmap <Leader>ne :bnext<CR>
+nmap <Leader>pe :bprev<CR>
 nmap <Leader>e :bd<CR>
 nmap <Leader>gs :G<CR>
 nmap <Leader>gc :Gcommit<CR>
